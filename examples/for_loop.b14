@@ -1,0 +1,14 @@
+pain i = 1 dekhi 5:
+    dekhaa i
+
+dekhaa "---"
+
+total = 0
+pain n = 1 dekhi 10:
+    total = total + n
+dekhaa total
+
+dekhaa "---"
+
+pain i = 5 dekhi 1:
+    dekhaa i

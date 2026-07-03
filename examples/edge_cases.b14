@@ -1,0 +1,26 @@
+dekhaa "ha" * 3
+dekhaa 3 * "ha"
+
+x = -5
+dekhaa x
+dekhaa -x
+
+dekhaa 5 > 3
+dekhaa 5.5 == 5.5
+dekhaa 2 < 3
+
+karya outer():
+    y = 100
+    karya inner():
+        pherai y + 1
+    pherai inner()
+
+dekhaa outer()
+
+global_x = 1
+karya modify():
+    global_x = 99
+    dekhaa global_x
+
+modify()
+dekhaa global_x

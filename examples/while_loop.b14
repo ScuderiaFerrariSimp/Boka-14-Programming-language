@@ -1,0 +1,14 @@
+i = 1
+jaye i <= 5:
+    dekhaa i
+    i = i + 1
+
+dekhaa "---"
+
+karya countdown(n):
+    jaye n > 0:
+        dekhaa n
+        n = n - 1
+    dekhaa "Liftoff!"
+
+countdown(3)

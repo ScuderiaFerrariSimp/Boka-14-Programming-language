@@ -1,0 +1,6 @@
+name = pachara("Enter your name: ")
+dekhaa "Namaskar " + name
+
+age = int(pachara("Enter your age: "))
+dekhaa "Next year you'll be:"
+dekhaa age + 1

@@ -1,0 +1,22 @@
+karya add(a, b):
+    pherai a + b
+
+dekhaa add(3, 4)
+
+karya greet(name):
+    dekhaa "Hello, " + name
+
+greet("Subham")
+
+karya factorial(n):
+    jadi n <= 1:
+        pherai 1
+    nahele:
+        pherai n * factorial(n - 1)
+
+dekhaa factorial(5)
+
+karya no_return():
+    x = 1
+
+dekhaa no_return()

@@ -1,0 +1,32 @@
+karya is_even(n):
+    jadi n % 2 == 0:
+        pherai satya
+    nahele:
+        pherai michha
+
+karya describe(n):
+    jadi is_even(n):
+        dekhaa string(n) + " is even"
+    nahele:
+        dekhaa string(n) + " is odd"
+
+count = 1
+jadi count == 1:
+    describe(4)
+    describe(7)
+
+karya sum_to(n):
+    total = 0
+    i = 1
+    jadi n < 1:
+        pherai 0
+    nahele:
+        pherai n + sum_to(n - 1)
+
+dekhaa sum_to(10)
+
+karya celsius_to_fahrenheit(c):
+    pherai c * 9 / 5 + 32
+
+dekhaa celsius_to_fahrenheit(25)
+dekhaa celsius_to_fahrenheit(0.0)

@@ -1,0 +1,19 @@
+age = 19
+
+jadi age >= 18:
+    dekhaa "Adult"
+nahele:
+    dekhaa "Minor"
+
+x = 5
+jadi x == 5:
+    dekhaa "five"
+    jadi x > 0:
+        dekhaa "and positive"
+nahele:
+    dekhaa "not five"
+
+jadi michha:
+    dekhaa "should not print"
+nahele:
+    dekhaa "else branch works"

@@ -1,0 +1,26 @@
+x = 10
+y = 3
+dekhaa x + y
+dekhaa x - y
+dekhaa x * y
+dekhaa x / y
+dekhaa x % y
+
+pi = 3.14
+dekhaa pi
+dekhaa pi * 2
+
+name = "Subham"
+dekhaa "Namaskar " + name
+
+dekhaa satya
+dekhaa michha
+
+a = int("42")
+dekhaa a + 1
+
+b = float("3.5")
+dekhaa b
+
+c = string(99)
+dekhaa "Value: " + c
